@@ -19,10 +19,21 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
   jobit,
   tripguide,
   threejs,
+  sql,
+  java,
+  bootsrap,
+  gl,
+  ob,
+  trans,
+  bb,
+  lotus,
+  stack,
+  queue,
+  pm,
+  jira
 } from "../assets";
 
 export const navLinks = [
@@ -41,22 +52,24 @@ export const navLinks = [
 ];
 
 const services = [
+  
   {
-    title: "Web Developer",
-    icon: web,
+    title: "FullStack Developer",
+    icon: backend,
+  },
+  {
+    title: "Software Engineer (Intern)",
+    icon: creator,
   },
   {
     title: "React Native Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Freelancer",
+    icon: web,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  ,
 ];
 
 const technologies = [
@@ -73,12 +86,21 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Java",
+    icon:java
   },
+  {
+    name:"sql",
+    icon:sql,
+  },
+  
   {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
   },
   {
     name: "Redux Toolkit",
@@ -89,84 +111,45 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Bootstrap",
+    icon:bootsrap
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+ 
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Jira",
+    icon: jira,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Freelance FullStack Developer",
+    company_name: "SoftSora",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "April - June 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "2 Months working experience in TransChat",
+      "Real time chat application made to communicate within the company of a company in Japan. ",
+      "Next-level app with the ability to translate messages into any language of our choice.",
+      "DeepL translator was used to translate the messages.",
+      "Contribution: Implement the UI components ,Implement the backend APIs ,research on requirements and ideas.",
+      "Responsibilities: Collaborate with team members, Join to all standard up meetings and scrum meetings. work distribution , maintain project requests, responsible for on time delivery. ",
+      "Technologies: React and Node JS"
+      ,
     ],
   },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
+
 ];
 
 const testimonials = [
@@ -198,68 +181,172 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Golden-Lands",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Golden-Lands is a Web application that allows users to sell and buy lands from various landlords, providing a convenient and efficient solution for selling and buying lands. The goal of this project is to showcase and demonstrate usage of basic web development technologies including HTML,CSS,JS,PHP and MySql . Developed as part of the Internet and Web Technologies module at SLIIT.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "php",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gl,
+    source_code_link: "https://github.com/HiranKaush/Golden-Lands",
+  },
+  {
+    name: "CREDISY-OOP",
+    description:
+      "CREDISY is a web application designed to provide an online banking experience. The goal of this project is to showcase and demonstrate object-oriented programming (OOP) concepts. Developed as part of the Object-Oriented Programming module at SLIIT, CREDISY offers a secure and user-friendly platform for banking transactions. With features like account management, fund transfers, and transaction history, CREDISY highlights the principles of encapsulation, inheritance, and polymorphism in OOP",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "java",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ob,
+    source_code_link: "https://github.com/HiranKaush/CREDISY-Online-Banking",
+  },
+  {
+    name: "Ceylon-Translate",
+    description:
+    "Ceylon-Translate is a multimodal web application designed to provide an English to Sinhala , Sinhala to Englis - Text, Images, PDF , Voice translation. The goal of this project is develop the English language skills of Sri Lankan children and to make them use the English language. Developed as part of the Software Project Management(SPM) module at SLIIT, Ceylon-Translate offers a multitasking and user-friendly platform for translations.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tesseractOCR",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: trans,
+    source_code_link: "https://github.com/HiranKaush/Ceylon-Translate",
+  },
+  ,
+  {
+    name: "Boarding-Buddy",
+    description:
+    "Boarding-Buddy is a mobile application designed to provide user friendly mobile app to find boardings and restaurants easily for University Students. With features like Search boarding places by filtering , boarding house's management(landlord's), restaurant management, special thing is when using this app no need any third-party app to communication between landlord and tenant . We implemented a real time chat application to fullfill that task. and tenant management . Developed as part of the User Experience Engineering(UEE) module at SLIIT.",
+    tags: [
+      {
+        name: "reactNative",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: bb,
+    source_code_link: "https://github.com/HiranKaush/boardingBuddy",
+  },
+  {
+    name: "Procurement-Management",
+    description:
+      "Procurement-Management system is  combination of web and mobile applications implemented to provide a better procurement management in a construction site. When site manager makes purchase order in site using mobile app, it checks the total budget of the purchase order through the system. If the total budget is more than the limit of the company, the purchase order goes as a request to the procurement manager. Then he can consider it and give actions it to the supplier or reject the request. We have made a simple algorithm for this.. The goal of this project is to showcase and demonstrate How to Design and Implement a System related to a Case Study. Developed as part of the Case Studies in Software Engineering(CSSE) module at SLIIT.",
+    tags: [
+      {
+        name: "reactNative",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "reactjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pm,
+    source_code_link: "https://github.com/HiranKaush/Procurement-Management",
+  },
+  {
+    name: "Lotus-Fitness",
+    description:
+      "Lotus-Fitness is a e-commerce web application of Lotus Fitness designed to provide a userfriendly platform for users . The goal of this project is to showcase and demonstrate my Frontend skills using React.js.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
+      
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: lotus,
+    source_code_link: "https://hirankaush.github.io/gym-project/",
   },
   {
-    name: "Job IT",
+    name: "DSA-Stacks",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This project is making Stack in data structure using Array and LinkedList and operations related to Stacks. The goal of this project is to showcase and demonstrate my DSA knowledge using JAVA.And also I hope to further continue this repository .",
     tags: [
       {
-        name: "react",
+        name: "JAVA",
         color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      }
+      
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: stack,
+    source_code_link: "https://github.com/HiranKaush/DSA",
   },
   {
-    name: "Trip Guide",
+    name: "DSA-Queues",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This project is making Queue and Circular queue in data structure using Array and LinkedList and operations related to Queues. The goal of this project is to showcase and demonstrate my DSA knowledge using JAVA.And also I hope to further continue this repository .",
     tags: [
       {
-        name: "nextjs",
+        name: "JAVA",
         color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      }
+      
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: queue,
+    source_code_link: "https://github.com/HiranKaush/DSA-Queues",
   },
 ];
-
 export { services, technologies, experiences, testimonials, projects };
